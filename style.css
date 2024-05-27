@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.kvibes header{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.kvibes header .kv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kvibes header .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.kvibes header .link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+.kvibes header .link li a{
+    display: inline-block;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.kvibes header .link p{
+    margin-left: 40%;
+}
+
+.kvibes header .link p a{
+    color: black;
+}
+
+.kvibes header .link .under{
+    height: 2px;
+    width: 0;
+    background-color: red;
+    transition: width 1s ease-in-out;
+    margin-left: 2px;
+}
+
+.kvibes header .link li:hover .under{
+    width: 100%;
+}
+
+.kvibes .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/* .kvibes .main .wizkids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+} */
+
+/* .kvibes .main .wizkids:hover img{
+    transform: scale(1);
+    margin-left: 0;
+    transition: transfrom .3s ease-in-out;
+} */
+
+.kvibes .main .wizkids img:hover{
+
+}
+
+.kvibes .main .wizkids .img:hover{transform: scale(1.2);
+
+}
+
+.kvibes .main .wizkids .texts{
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    color: white;
+    transition: bottom .1s ease-in-out;
+}
+
+.kvibes .main .wizkids:hover .texts{
+    bottom: 10%;
+}
+
+.kvibes .main .wizkids .texts .lists{
+    font-size: 10px;
+   padding-left: 20px;
+    background-color: red;
+    width: 10px;
+}
+
+.kvibes .main .wizkids .texts .h{
+    font-size: 20px;
+    width: 300px;
+    margin: 15px;
+}
+
+.kvibes .main .wizkids .texts .p{
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.kvibes .main .wizkids img{
+    transform: scale(1);
+    margin-left: 0;
+    transition: transform .3s ease-in-out;
+}
+
+.wizkid .right{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    padding-top: 0px;
+}
+
+.wizkid .right:hover img{
+    transform: scale(1);
+    margin-left: 0;
+    transition: transfrom .3s ease-in-out;
+}
+
+.wizkid .right .texts{
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    color: white;
+    transition: bottom .1s ease-in-out;
+}
+
+.kvibes .main .wizkids:hover .texts{
+    bottom: 10%;
+}
+
+.kvibes .main .wizkids .texts .lists{
+    font-size: 10px;
+   padding-left: 20px;
+    background-color: red;
+    width: 10px;
+}
+
+.wizkid .right .texts h3{
+    font-size: 20px;
+    width: 300px;
+    margin: 15px;
+}
+
+.wizkid .right .texts p{
+    font-size: 12px;
+    padding-left: 20px;
+}
+/* 
+
+
+
+
+
+.wizkid{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    padding-top: 0px;
+} */
